@@ -1,0 +1,427 @@
+.App-body {
+  background-color: #121620;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dark{
+  background: #121620 !important;
+}
+.nav-link{
+  color: white !important;
+}
+.nav-btn{
+  border-radius: 24px !important;
+}
+.navbar{
+  border: 1px solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+/* =================== 
+    Barnner section 
+=====================*/
+.carousel-caption{
+  min-height: 55vh;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 83.2px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* margin-top: -200px; */
+}
+
+.paragraph{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #A7B3CB;
+}
+
+.bannerBtn {
+  color: white;
+  font-size: 16px !important;
+  font-weight: 500;
+  border-radius: 35px;
+  line-height: 24px !important;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 100px !important;
+  height: 56px;
+  align-items: center !important;
+  display: flex;
+  text-align: center;
+  align-items: center !important;
+  margin-top: 40px;
+}
+.carousel-control-prev-icon{
+  display: none !important;
+}
+.carousel-control-next-icon{
+  display: none !important;
+}
+
+/* =========================================
+              Mini nav
+==========================================*/
+.mininav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor:pointer;
+  margin: 12px;
+}
+
+.mininav p{
+  padding: 30px;
+  height: 27px;
+  /* font-family: 'Clash Display'; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #FFFFFF;
+}
+
+.mininav .para:hover{
+  /* width: 105px; */
+  height: 27px;
+  /* font-family: 'Clash Display'; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #06AA65;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.mininav .img{
+  background-image: url('../public/img/white_arrow.svg');;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.mininav .para .img:hover{
+  width: 16px;
+  height: 16px;
+  background-image: url('../public/img/green_arrow.svg');
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+}
+.mininav .para .box{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 8px;
+  margin-left: 107px;
+  margin-top: -20px;
+  gap: 10px;
+  width: 95px;
+  height: 22px;
+  background: rgba(6, 170, 101, 0.16);
+  border-radius: 1000px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* width: 79px; */
+  height: 18px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #06AA65;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* ===============================
+              Horizontal
+==================================*/
+.horizontal{
+  border: 1px solid rgba(167, 179, 203, 0.21);
+  margin-top: 70px;
+}
+.horizontal2{
+  margin-top: 1px;
+  border: 1px solid rgba(167, 179, 203, 0.21);
+}
+
+.crypt{
+/* Crypto Yield */
+  width: 286px;
+  height: 62px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.crypt1{
+  /* 60% on USDC */
+  width: 316px;
+  height: 62px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+  text-align: center;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.crypt2{
+  /* Passive Income */
+  width: 359px;
+  height: 62px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+  text-align: center;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.crypt3{
+  /* Crypto Yield */
+  width: 286px;
+  height: 62px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+  text-align: center;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.col-sm{
+  display: flex !important;
+  justify-content: center;
+}
+
+/* ======================================
+              content section
+========================================= */
+
+.content_box{
+  /* Rectangle 1 */
+  box-sizing: border-box;
+  position: relative;
+  width: 1200px;
+  height: 343px;
+  margin-left: 53px;
+  margin-top: 105px;
+  margin-bottom: 105px;
+  background: #0F131D;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.content_boxD{
+  /* Rectangle 1 */
+  box-sizing: border-box;
+  position: relative;
+  width: 1200px;
+  height: 522px;
+  margin-left: 53px;
+  margin-top: 105px;
+  margin-bottom: 105px;
+  background: #0F131D;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.content_box_protect{
+  /* Rectangle 1 */
+  box-sizing: border-box;
+  position: relative;
+  width: 1200px;
+  height: 445px;
+  margin-left: 53px;
+  margin-top: 105px;
+  margin-bottom: 105px;
+  background: #0F131D;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.content_box_community{
+    /* Rectangle 1 */
+    box-sizing: border-box;
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin-left: 53px;
+    margin-top: 105px;
+    margin-bottom: 105px;
+    background: #0F131D;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.content_header{
+  /* Better Passive Income */
+  /* position: absolute; */
+  width: 517px;
+  height: 62px;
+  left: 184px;
+  top: 1218px;
+  /* font-family: 'Clash Display'; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.content_para{
+  width: 521px;
+  height: 81px;
+  left: 184px;
+  top: 1288px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  color: #A7B3CB;
+}
+
+.content_para_protect{
+  width: 521px;
+  height: 81px;
+  left: 184px;
+  margin-top: 79px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  color: #A7B3CB;
+}
+
+.content_para_community{
+  width: 521px;
+  height: 81px;
+  left: 184px;
+  margin-top: 79px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  color: #A7B3CB;
+}
+
+.content_container{
+  padding-left: 75px !important;
+}
+.final_content{
+  margin-top: 100px;
+}
+.content_img{
+  position: absolute;
+  width: 22%;
+  margin-left: -91px;
+  height: 230px;
+  background-repeat: no-repeat !important;
+  margin-top: -52px;
+  background: url('../public/img/01.png');
+}
+.content_img1{
+  position: absolute;
+  width: 22%;
+  margin-left: -91px;
+  height: 230px;
+  background-repeat: no-repeat !important;
+  margin-top: 48px;
+  background: url('../public/img/2.png');
+}
+.content_img2{
+  position: absolute;
+  width: 24%;
+  margin-left: -91px;
+  height: 318px;
+  background-repeat: no-repeat !important;
+  margin-top: -69px;
+  background: url('../public/img/3.png');
+}
+.content_img3{
+  position: absolute;
+  width: 26%;
+  margin-left: -91px;
+  height: 241px;
+  background-repeat: no-repeat !important;
+  margin-top: -9px;
+  background: url('../public/img/4.png');
+}
+.copyright{
+  width: 113px;
+  height: 21px;
+  left: 120px;
+  top: 3033px;
+  font-family: 'Clash Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(167, 179, 203, 0.47);
+}
+.dark2{
+  border: 0 solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
