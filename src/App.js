@@ -1,4 +1,5 @@
-import './App.css';
+// import './App.css';
+import './App.scss';
 import Navigation from './Components/Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Barnner from './Components/Barnner';
